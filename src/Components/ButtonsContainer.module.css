@@ -1,0 +1,19 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.button:hover {
+    transform: scale(1.04);
+    background-color: burlywood;
+    color: blue;
+    transition-duration: 1s;
+}
